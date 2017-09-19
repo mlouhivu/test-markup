@@ -43,7 +43,7 @@ The procedure described above creates two executables:
 - **python** is the standard Python interpreter, which can be used for normal
   serial applications and e.g. for software installations.
 - **python_mpi** is the special Python interpreter which has to be started with
-  `mpirun` (or equivalent MPI launch command), e.g. 
+  `mpirun` (or equivalent MPI launch command), e.g.
 
 
 
