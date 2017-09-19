@@ -1,6 +1,8 @@
-# Scalable Python 1.x (based on Python 2.7.13)
+# Scalable Python 1.x 
 
-> Copyright (c) 2011-2016  CSC - IT Center for Science Ltd.   
+> based on Python 2.7.13
+>
+> Copyright (c) 2011-2017, CSC - IT Center for Science Ltd.   
 > authors: 
 >  [Jussi Enkovaara](jussi.enkovaara@csc.fi),
 >  [Martti Louhivuori](martti.louhivuori@csc.fi)
