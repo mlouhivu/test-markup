@@ -1,10 +1,10 @@
 Scalable Python 1.x (based on Python 2.7.13)
 ---
 
-  Copyright (c) 2011-2016  CSC - IT Center for Science Ltd.
+    Copyright (c) 2011-2016  CSC - IT Center for Science Ltd.
 
-  authors: Jussi Enkovaara (jussi.enkovaara@csc.fi)
-           Martti Louhivuori (martti.louhivuori@csc.fi)
+    authors: Jussi Enkovaara (jussi.enkovaara@csc.fi)
+             Martti Louhivuori (martti.louhivuori@csc.fi)
 
 Special Python interpreter intended for massively parallel HPC systems.
 
