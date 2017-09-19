@@ -2,11 +2,11 @@
 
 > based on Python 2.7.13
 >
-> Copyright (c) 2011-2017
+> Copyright :copyright: 2011-2017
 >  [CSC - IT Center for Science Ltd.](http://github.com/CSCfi)   
 > authors: 
->  [Jussi Enkovaara](github.com/jussienko),
->  [Martti Louhivuori](@mlouhivu)
+>  [Jussi Enkovaara](http://github.com/jussienko),
+>  [Martti Louhivuori](http://github.com/mlouhivu)
 
 Special Python interpreter intended for massively parallel HPC systems.
 
