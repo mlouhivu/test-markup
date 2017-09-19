@@ -45,8 +45,8 @@ The procedure described above creates two executables:
 - **python_mpi** is the special Python interpreter which has to be started with
   `mpirun` (or equivalent MPI launch command), e.g.
 
-```bash
-    mpirun -np 16384 python_mpi my_application.pyi
+```
+mpirun -np 16384 python_mpi my_application.pyi
 ```
 
 ## Disabling I/O wrappers
