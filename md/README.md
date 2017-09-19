@@ -24,24 +24,25 @@ all other process.
 
 Use --enable-mpi flag for configure, e.g.
 
-./configure --enable-mpi
+    ./configure --enable-mpi
 
 Build and install standard Python interpreter
 
-make
-make install
+    make
+    make install
 
 Build and install the special Python interpreter
 
-make mpi
-make install-mpi
+    make mpi
+    make install-mpi
 
 ## Short usage instructions
 
 The procedure described above creates two executables:
 
-"python" is the standard Python interpreter, which can be used for
-normal serial applications and e.g. for software installations.
+python:
+    is the standard Python interpreter, which can be used for
+    normal serial applications and e.g. for software installations.
 
 "python_mpi" is the special Python interpreter which has to be started
 with mpirun (or equivalent MPI launch command), e.g.
