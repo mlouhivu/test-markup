@@ -22,7 +22,7 @@ all other process.
 
 ## Short build instructions
 
-Use --enable-mpi flag for configure, e.g.
+Use `--enable-mpi` flag for configure, e.g.
 
     ./configure --enable-mpi
 
@@ -43,7 +43,7 @@ The procedure described above creates two executables:
 - *python* is the standard Python interpreter, which can be used for normal
   serial applications and e.g. for software installations.
 - *python_mpi* is the special Python interpreter which has to be started with
-  mpirun (or equivalent MPI launch command), e.g.
+  `mpirun` (or equivalent MPI launch command), e.g.
 ```
     mpirun -np 16384 python_mpi my_application.py
 ```
@@ -51,23 +51,23 @@ The procedure described above creates two executables:
 ## Disabling I/O wrappers
 
 It is possible to disable the special I/O wrappers on-the-fly and revert to
-the standard POSIX calls by using the built-in function wrapoff() in a Python
-script. For example:
+the standard POSIX calls by using the built-in function `wrapoff()` in a
+Python script. For example:
 
-wrapoff()
-from numpy import array
+    wrapoff()
+    from numpy import array
 
-Similarly, they can be turned back on with the built-in function wrapon().
+Similarly, they can be turned back on with the built-in function `wrapon()`.
 
 ## Limitations
 
 All the process have to perform the same "import" statements, e.g. code like
 
-if rank == 0:
-    import mymodule
+    if rank == 0:
+        import mymodule
 
-is NOT allowed. If you need to do it, please use the wrapoff() and wrapon()
-functions to disable the special I/O wrappers temporarily.
+is NOT allowed. If you need to do it, please use the `wrapoff()` and
+`wrapon()` functions to disable the special I/O wrappers temporarily.
 
 If you experience an unexpected deadlock while using Scalable Python, it is
 most likely due to triggering this limitation. Unfortunately, even some
