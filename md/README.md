@@ -78,5 +78,5 @@ imports.
 
 ## Other build considerations
 
-By default, the MPI related parts in special interpreter are build by "mpicc".
+By default, the MPI related parts in special interpreter are build by `mpicc`.
 Alternate MPI compiler can be specified with variable MPICC.
