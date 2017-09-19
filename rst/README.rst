@@ -1,7 +1,8 @@
-Scalable Python 1.x (based on Python 2.7.13)
---------------------------------------------
+Scalable Python
+---------------
 
-:Copyright: `CSC - IT Center for Science Ltd. <http://github.com/CSCfi>`_
+:Version: 1.x (based on Python 2.7.13)
+:Copyright: 2011 - 2017 `CSC - IT Center for Science Ltd. <http://github.com/CSCfi>`_
 :Authors:   `Jussi Enkovaara <http://github.com/jussienko>`_,
             `Martti Louhivuori <http://github.com/mlouhivu>`_
 
