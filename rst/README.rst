@@ -6,6 +6,11 @@ Scalable Python
 :Authors:   `Jussi Enkovaara <http://github.com/jussienko>`_,
             `Martti Louhivuori <http://github.com/mlouhivu>`_
 
+::
+    Copyright (c) 2011 - 2017 `CSC - IT Center for Science Ltd. <http://github.com/CSCfi>`_
+    Authors: `Jussi Enkovaara <http://github.com/jussienko>`_,
+             `Martti Louhivuori <http://github.com/mlouhivu>`_
+
 Special Python interpreter intended for massively parallel HPC systems.
 
 When using Python for parallel applications, standard Python puts
