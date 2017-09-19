@@ -2,7 +2,7 @@
 
 > based on Python 2.7.13
 >
-> Copyright :copyright: 2011-2017
+> Copyright (&copy;) 2011-2017
 >  [CSC - IT Center for Science Ltd.](http://github.com/CSCfi)   
 > authors: 
 >  [Jussi Enkovaara](http://github.com/jussienko),
