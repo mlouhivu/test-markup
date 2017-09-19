@@ -1,9 +1,9 @@
 Scalable Python 1.x (based on Python 2.7.13)
 --------------------------------------------
 
-:Copyright: (github.com/CSCfi)[CSC - IT Center for Science Ltd.]
-:Authors:   (github.com/jussienko)[Jussi Enkovaara],
-            (github.com/mlouhivu)[Martti Louhivuori]
+:Copyright: [CSC - IT Center for Science Ltd.](github.com/CSCfi)
+:Authors:   [Jussi Enkovaara](github.com/jussienko),
+            [Martti Louhivuori](github.com/mlouhivu)
 
 Special Python interpreter intended for massively parallel HPC systems.
 
