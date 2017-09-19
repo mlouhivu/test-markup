@@ -40,9 +40,9 @@ Build and install the special Python interpreter
 
 The procedure described above creates two executables:
 
-- *python* is the standard Python interpreter, which can be used for normal
+- **python** is the standard Python interpreter, which can be used for normal
   serial applications and e.g. for software installations.
-- *python_mpi* is the special Python interpreter which has to be started with
+- **python_mpi** is the special Python interpreter which has to be started with
   `mpirun` (or equivalent MPI launch command), e.g.
 ```
     mpirun -np 16384 python_mpi my_application.py
