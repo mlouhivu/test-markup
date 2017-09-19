@@ -44,9 +44,9 @@ The procedure described above creates two executables:
   serial applications and e.g. for software installations.
 - **python_mpi** is the special Python interpreter which has to be started with
   `mpirun` (or equivalent MPI launch command), e.g.
-```
+
+
     mpirun -np 16384 python_mpi my_application.py
-```
 
 ## Disabling I/O wrappers
 
